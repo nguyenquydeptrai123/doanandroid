@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">nhom15</string>
+    <string name="title">Quản Lý Sinh Viên</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="username">Tài khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="bt_login">Login</string>
+    <string name="Class">Lớp</string>
+    <string name="Chairman">Chủ Nhiệm</string>
+    <string name="StudentCode">Mã Sinh Viên</string>
+    <string name="surname">Họ</string>
+    <string name="Name">Tên</string>
+    <string name="add">Thêm</string>
+    <string name="remove">Xóa</string>
+    <string name="update">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="Sex">Phái</string>
+    <string name="brithday">Ngày Sinh</string>
+    <string name="SubjectCode">Mã Môn Học</string>
+    <string name="Point">Điểm</string>
+    <string name="SubjectName">Tên Môn Học</string>
+    <string name="coefficient">Hệ Số</string>
+    <string name="Seach">Tìm Kiếm</string>
+    <string name="exit">Exit</string>
+    <string name="Registration">Đăng Ký</string>
+    <string name="Login_account">Login Account</string>
+    <string name="registration_account">registration Account</string>
+    <string name="agree">Đồng Ý</string>
+    <string name="cancel">Thoát</string>
+    <string name="Stundent">Học Sinh</string>
+    <string name="Subject">Môn Học</string>
+</resources>

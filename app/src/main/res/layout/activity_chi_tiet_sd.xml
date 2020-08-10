@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivityChiTietSD">
+
+    <TextView
+        style="@style/title"
+        android:text="@string/Point" />
+
+    <LinearLayout
+        style="@style/linearBt"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/SubjectCode" />
+
+        <Spinner
+            android:layout_marginStart="30sp"
+            android:id="@+id/sp_maPhong"
+            style="@style/editText"
+            android:layout_marginLeft="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/StudentCode" />
+
+        <Spinner
+            android:layout_marginStart="20sp"
+            android:id="@+id/sp_MaThietBi"
+            style="@style/spinner"
+            android:layout_marginLeft="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/Point" />
+
+        <EditText
+           style="@style/editText"
+            android:inputType="number"
+            android:layout_marginStart="40sp"
+            android:id="@+id/edit_soLuong"
+            android:layout_marginLeft="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/bt_add"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_add_circle_24"
+            android:text="@string/add"
+            android:drawableLeft="@drawable/ic_baseline_add_circle_24" />
+
+        <Button
+            android:id="@+id/bt_remove"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_remove_circle_24"
+            android:text="@string/remove"
+            android:drawableLeft="@drawable/ic_baseline_remove_circle_24" />
+
+        <Button
+            android:id="@+id/bt_update"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_update_24"
+            android:text="@string/update"
+            android:drawableLeft="@drawable/ic_baseline_update_24" />
+
+        <Button
+            android:id="@+id/bt_clear"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_clear_all_24"
+            android:text="@string/clear"
+            android:drawableLeft="@drawable/ic_baseline_clear_all_24" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listCTSD"
+        style="@style/lv"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
